@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="../images/c30bc541ea2fe03747c7f569bee90089-minimalismo-infinity-logo-infinite.webp" width="17%">
+                <b>INFINITY</b>
+            </div>
+            <div class="pesquisa">
+                <div class="barra">
+                    <div class="icone">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="campo">
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <i class="fa-solid fa-moon"></i>
+                <i class="fa-solid fa-bell"></i>
+                <img src="https://pics.craiyon.com/2023-06-27/287f2a60c2e74386b5a89c517eb527dc.webp" width="35px">
+            </div>
+        </div>
+        <div class="main">
+            <div class="menu">
+                <div class="opcao" id="selecionado">
+                    <i class="fa-solid fa-house"></i>
+                    <b>Dashboard</b>
+                </div>
+                <div class="opcao">
+                    <i class="fa-brands fa-wpforms"></i>
+                    <b>Forms</b>
+                </div>
+                <div class="opcao">
+                    <i class="fa-solid fa-folder"></i>
+                    <b>Cards</b>
+                </div>
+                <div class="opcao">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <b>Charts</b>
+                </div>
+                <div class="opcao">
+                    <i class="fa-solid fa-arrow-pointer"></i>
+                    <b>Buttons</b>
+                </div>
+                <div class="opcao">
+                    <i class="fa-solid fa-square-full"></i>
+                    <b>Models</b>
+                </div>
+                <div class="opcao">
+                    <i class="fa-solid fa-table-cells-large"></i>
+                    <b>Tables</b>
+                </div>
+                <div class="opcao">
+                    <i class="fa-solid fa-file"></i>
+                    <b>Pages</b>
+                </div>
+                <div class="campo">
+                    <button>Criar conta</button>
+                </div>
+            </div>
+            <div class="conteudo">
+                <h1>Dashboard</h1>
+                <div class="info">
+                    <div class="icone">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="textos">
+                        <p>Começe esse projeto no github</p>
+                        <a href="">Ver mais</a>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card" id="card-1">
+                        <div class="icone">
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+                        <div class="textos">
+                            <p>Clientes</p>
+                            <b>4230</b>
+                        </div>
+                    </div>
+                    <div class="card" id="card-2">
+                        <div class="icone">
+                            <i class="fa-solid fa-money-bill-trend-up"></i>
+                        </div>
+                        <div class="texto">
+                            <p>Balanço geral</p>
+                            <b>$ 46.760,89</b>
+                        </div>
+                    </div>
+                    <div class="card" id="card-3">
+                        <div class="icone">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <div class="texto">
+                            <p>Novas vendas</p>
+                            <b>376</b>
+                        </div>
+                    </div>
+                    <div class="card" id="card-4">
+                        <div class="icone">
+                            <i class="fa-solid fa-message"></i>
+                        </div>
+                        <div class="texto">
+                            <p>Contatos pendentes</p>
+                            <b>35</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabela">
+                    <table>
+                        <thead>
+                            <th>CLIENTE</th>
+                            <th>QUANTIA</th>
+                            <th>STATUS</th>
+                            <th>DATA</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="client-data">
+                                        <img src="https://pics.craiyon.com/2023-06-27/287f2a60c2e74386b5a89c517eb527dc.webp">
+                                        <div class="information">
+                                        <span id="name">Gabriel</span>
+                                        <span id="cargo">Diretor</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>R$ 9,000,00</td>
+                                <td>
+                                    <div class="status pago">
+                                        <p>Pago</p>
+                                    </div>
+                                </td>
+                                <td>20/09/2024</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="client-data">
+                                        <img src="https://pics.craiyon.com/2023-06-27/287f2a60c2e74386b5a89c517eb527dc.webp">
+                                        <div class="information">
+                                        <span id="name">Matheus</span>
+                                        <span id="cargo">Diretor</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>R$ 5,000,00</td>
+                                <td>
+                                    <div class="status cancelado">
+                                        <p>Cancelado</p>
+                                    </div>
+                                </td>
+                                <td>20/09/2024</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="client-data">
+                                        <img src="https://pics.craiyon.com/2023-06-27/287f2a60c2e74386b5a89c517eb527dc.webp">
+                                        <div class="information">
+                                        <span id="name">Ítalo</span>
+                                        <span id="cargo">Sócio</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>R$ 15,000,00</td>
+                                <td>
+                                    <div class="status pendente">
+                                        <p>Pendente</p>
+                                    </div>
+                                </td>
+                                <td>20/09/2024</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="client-data">
+                                        <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/6541188-barbudo-homem-cartoon-personagem-com-oculos-de-sol-minimalista-cartoon-avatar-perfil-ilustracaoial-gratis-vetor.jpg">
+                                        <div class="information">
+                                        <span id="name">Ronaldo</span>
+                                        <span id="cargo">Gerente</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>R$ 7,500,00</td>
+                                <td>
+                                    <div class="status pago">
+                                        <p>Pago</p>
+                                    </div>
+                                </td>
+                                <td>20/09/2024</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
